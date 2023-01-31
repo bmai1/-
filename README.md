@@ -1,2 +1,2 @@
 # renpy
-dating sim lol
+dating sim
