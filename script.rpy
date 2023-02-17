@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define m = Character("Mari")
+define m = Character("冰淇淋")
 define n = Character("")
 define pov = Character("[povname]")
 
