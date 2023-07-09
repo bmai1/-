@@ -2,7 +2,7 @@
 
 worst visual novel ever created
 
-## thrilling gameplay
+## thrilling gameplay!
 <img width="1331" alt="Screen Shot 2023-07-06 at 6 07 01 PM" src="https://github.com/bmai1/renpy/assets/104703637/476d4dba-4158-4dd3-bb63-5d4076be404a">
 
 
