@@ -1,9 +1,9 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define m = Character("冰淇淋")
+define m = Character("anime girl")
 define n = Character("")
 define pov = Character("[povname]")
 
@@ -38,24 +38,32 @@ label start:
 
 
 
-    show senjo happy closed
+    show senjo happy talk
 
 
     # These display lines of dialogue.
 
-    m "\"Good evening [povname]~\""
+    m "\"Have a nice evening [povname]~\""
 
     show senjo happy
 
+    n "We had just finished packing our bags and I was preparing to walk home when suddenly she called out to me."
+
+    n "I remember that day clearly; the blossom of new love is not something that one experiences often."
+
+    show senjo happy talk
+
     m "\"Today's a special day, y'know that?\""
 
-    n "There's a playful look in her eyes, one I can't quite understand, and she begins to giggle lightheartedly."
+    show senjo happy
+
+    n "She had a mysterious look in her eyes that I couldn't quite decipher, and she began to giggle."
 
     play sound "audio/giggle.mp3"
 
     m "\"Tee hee!\""
 
-    n "She actually said \"Tee hee\" out loud by way, to which I don't reply. Because that's super abnormal..."
+    n "She actually said \"Tee hee\" out loud by way. What a weirdo..."
 
     n "I'm unsure of how to respond."
 
@@ -65,12 +73,12 @@ label start:
         "What do you mean?":
             show senjo neutral
             m "\"I only mean what I mean.\""
-            m "\"[povname], if you really have to ask me then maybe you didn't search hard enough for a definitive answer.\""
-            pov "\"Okay...no need to lecture me.\""
+            m "\"[povname], if you really have to ask me what I mean then maybe you didn't think hard enough to find a definitive answer.\""
+            pov "\"Okay, okay, no need to lecture me...\""
             
             
         "Yeah, today's a really special day.":
-            show senjo happy closed
+            show senjo happy talk
             m "\"So you remembered!\""
             pov "\"That's right.\""
             m "\"That's quite uncharacteristic of you [povname]...\""
@@ -89,62 +97,65 @@ label start:
     show senjo neutral talk
     # show senjo pose
     
-    m "\"I'm actually going to rob a bank today.\""
+    m "\"I'm going to rob a bank today.\""
 
     show senjo neutral
 
     pov "\"Right...\""
 
-    n "For some reason, this seems like something she would do on a whim."
+    n "For some reason, this strikes me as something she would actually do on a whim."
 
     pov "\"...\""
 
     show senjo neutral talk
 
-    m "\"What, aren't you surprised? Not even the tiniest bit worried for me?\""
+    m "\"What, aren't you surprised? Not even the tiniest bit worried about me? You could've offered to lend me a hand, you know. You could be my getaway driver. Isn't that romantic?\""
 
     show senjo neutral
 
+    pov "\"...\""
+
     menu:
-        "Not worried at all! I believe in you, and you have my full support.":
+        "I am not worried at all. I believe in you.":
             show senjo blush
             m "\"Aw, thanks. Doesn't mean much coming from you though.\""
             n "What a tsundere."
 
-        "I'm only slightly worried. Sounds risky.":
+        "I'm kind of worried.":
             show senjo sus
-            m "\"Do you not have faith in me or something?"
+            m "\"Do you not have faith in me or something?\""
             show senjo happy
-            m "\"That's pretty cold-hearted of you, [povname]. I thought you were a reliable guy.\""
+            m "\"That's pretty cold-hearted of you, [povname]. I thought you were a nice guy.\""
 
 
-        "I'm really worried! That sounds like an extremely dangerous idea!":
+        "I'm really worried! That sounds like an extremely bad idea.":
             show senjo sus
-            m "\"Jesus, you're such a chicken.\""
+            m "\"You're such a chicken. You can't enjoy life if you constantly worry\""
             pov "\"I love chicken, and I love you too.\""
             show senjo neutral
-            m "wtf -_-"
+            m "\"wtf dude -_- shut up\""
+
         "I don't worry about women.":
             show senjo sus
-            n "lmao"
+            n "lol"
         
     show senjo neutral talk
     
-    m "\"Anyways, robbing a bank was obviously just a joke. You don't seem very amused.\""
+    m "\"Sigh...I'm just joking. You don't seem very amused. You actually thought I would rob a bank??\""
 
     show senjo neutral
     
     n "I chuckle weakly."
 
-    pov "\"Make better jokes then.\""
+    pov "\"That wasn't a very funny joke. And yeah, why wouldn't you rob a bank? It's not like you're an exemplar of good behavior.\""
 
-    show senjo happy closed
+    show senjo happy talk
 
     m "\"Fuck you.\""
 
     show senjo sus
 
-    pov "\"Yes please.\""
+    pov "\"Yes, please. Also, why??\""
 
     m "\"...\""
 
@@ -166,7 +177,7 @@ label start:
 
     n "It makes me feel kind of guilty."
 
-    n "But I swear, I thought her birthday was in August or something."
+    n "But I swear, I thought her birthday was in a few years or something."
 
     show senjo sus
 
@@ -210,14 +221,12 @@ label start:
     
         "Are we going to have sex?":
             show senjo blush
-            m "\"Well, depends on your behaviour. Better be a good boy.\""
+            m "\"Well, that entirely depends on your behavior. Better be a good boy.\""
             pov "\"Fine, I'll come.\""
-            show senjo happy
             m "\"Good answer.\""
     
         
     scene kitchen with dissolve
-    
     
     play music "audio/main_theme.mp3" fadeout 1 
 
@@ -229,9 +238,13 @@ label start:
 
     show senjo neutral
 
-    n "The sun was already setting, casting glittering golden rays into Mari's kitchen through the wooden sliding doors."
+    n "The sunset painted the sky in hues of fiery orange and warm yellow, casting cascades of brilliant golden rays through her semi-transparent sliding doors."
 
-    n "I catch a lingering aroma of ramen, which was odd considering Mari's parents were in prison, and therefore nobody could have been cooking while we were at school together."
+    n "I catch a lingering aroma of freshly baked bread, which was odd considering her parents were in prison, and therefore nobody could have been baking while we were at school together."
+
+    n "She also didn't strike me as someone who would learn to bake on her own; I always thought of her as an instant ramen type of girl."
+
+    n "This bread paradox is stressing me out. I need to get to the bottom of this."
 
     pov "\"Wait, I forgot to ask you this earlier, but why are your parents in prison?\""
 
@@ -267,7 +280,7 @@ label start:
 
     play sound "audio/thump.mp3"
 
-    n "They hit the floor with a sad thud."
+    n "They hit the floor with a sad little thump."
 
     show senjo happy
     
@@ -300,7 +313,7 @@ label start:
 
     show senjo neutral
 
-    m "\"I hope you don't mind.\""
+    m "\"I hope you don't mind coming over.\""
 
     pov "\"No, no, it's alright.\""
 
@@ -335,19 +348,19 @@ label start:
 
     show senjo angry 
    
-    m "\"Well, I'll let you know. It feels really shitty.\""
+    m "\"Well, I'll let you know. It feels really shitty when you ignore my desires.\""
 
     m "\"I don't deserve to be treated like this.\""
 
     show senjo blush
 
-    m "\"I only want you to like me, to spend time with me happily...\""
+    m "\"I only want you to enjoy my company, to spend as much time with me as humanly possible...\""
 
     show senjo neutral
 
     m "\"Its...complicated. You wouldn't understand. You're like a rock: emotionless.\""
 
-    pov "\"Hey, I'm sorry, but if I didn't want to be here then I would've left already.\""
+    pov "\"Hey, I'm sorry for whatever I did wrong, but if I didn't want to be here then I would've left already.\""
 
     show senjo angry
 
@@ -372,7 +385,7 @@ label start:
     pov "\"So can we please not spend our time arguing over whether or not I want to be here with you?\""
 
     pov "\"Because the answer is yes.\""
-    pov "\"I wanna be here. Don't question it.\""
+    pov "\"I like you. I enjoy your company. Don't question it.\""
 
     show senjo neutral talk
 
@@ -471,7 +484,7 @@ label start:
 
     n "I must've been out for hours because it's now nighttime."
 
-    n "I'm not too sure what happened after I got to Mari's house."
+    n "I'm not too sure what happened after I got to her house."
 
     n "My head really hurts, and I feel nauseous."
 
@@ -481,7 +494,7 @@ label start:
 
     m "\"You\'re finally awake.\""
 
-    pov "\"Wh-What do you want with me, witch?\""
+    pov "\"Wh-What do you want with me, wench?\""
 
     n "To (Not) Be Continued"
 
