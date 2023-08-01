@@ -5,6 +5,7 @@ worst visual novel ever created (very short i am lazy)
 bg art ripped from another visual novel (i am poor and talentless 😢)
 <br> 
 download @ https://bmai1.github.io/projects.html
+(there is a typo sorry i don't want to reupload)
 
 ## hotkeys
 v - toggle self-voicing (HIGHLY RECOMMENDED!! SUPER SEXY!!)
