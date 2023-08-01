@@ -7,7 +7,7 @@ bg art ripped from another visual novel (i am poor and talentless 😢)
 download @ https://bmai1.github.io/projects.html
 
 ## hotkeys
-v - self-voicing (HIGHLY RECOMMENDED!! SUPER SEXY!!)
+v - toggle self-voicing (HIGHLY RECOMMENDED!! SUPER SEXY!!)
 <br>
 space - advances dialogue
 <br>
