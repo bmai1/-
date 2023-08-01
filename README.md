@@ -2,7 +2,7 @@
 
 worst visual novel ever created (very short i am lazy)
 <br>
-bg art ripped from another visual novel (I AM POOR AND TALENTLESS)
+bg art ripped from another visual novel (i am poor and talentless 😢)
 <br> 
 download @ https://bmai1.github.io/projects.html
 
