@@ -1,6 +1,6 @@
 # tsumamonogatari (妻物語)
 
-worst visual novel ever created
+worst visual novel ever created (very short i am lazy)
 
 ## thrilling gameplay!
 <img width="1406" alt="title" src="https://github.com/bmai1/tsu/assets/104703637/16228fa0-4691-4eb8-bcdb-6a100385e7c7">
