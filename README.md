@@ -6,6 +6,27 @@ bg art ripped from another visual novel (i am poor and talentless 😢)
 <br> 
 download @ https://bmai1.github.io/projects.html
 
+## hotkeys
+v - self-voicing (HIGHLY RECOMMENDED!! SUPER SEXY!!)
+<br>
+space - advances dialogue
+<br>
+arrow keys - navigate interface
+<br>
+escape - open game menu
+<br>
+ctrl - skips dialogue when held down
+<br>
+tab - toggles dialogue skipping
+<br>
+page up/down - rolls dialogue backwards/forwards
+<br>
+h - hide user interface
+<br>
+s - screenshot
+<br>
+shift-A - opens accessibility menu
+<br>
 ## thrilling gameplay!
 <img width="1406" alt="title" src="https://github.com/bmai1/tsu/assets/104703637/16228fa0-4691-4eb8-bcdb-6a100385e7c7">
 
