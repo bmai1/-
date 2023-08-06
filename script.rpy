@@ -63,7 +63,7 @@ label start:
 
     m "\"Tee hee!\""
 
-    n "She actually said \"Tee hee\" out loud by way. What a weirdo..."
+    n "She actually said \"Tee hee\" out loud by the way. What a weirdo..."
 
     n "I'm unsure of how to respond."
 
@@ -130,10 +130,10 @@ label start:
 
         "I'm really worried! That sounds like an extremely bad idea.":
             show senjo sus
-            m "\"You're such a chicken. You can't enjoy life if you constantly worry\""
+            m "\"You're such a chicken. You can't enjoy life if you constantly worry.\""
             pov "\"I love chicken, and I love you too.\""
             show senjo neutral
-            m "\"wtf dude -_- shut up\""
+            m "\"wtf dude shut up\""
 
         "I don't worry about women.":
             show senjo sus
