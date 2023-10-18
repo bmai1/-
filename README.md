@@ -4,8 +4,6 @@ worst visual novel ever created (very short i am lazy)
 <br>
 bg art ripped from another visual novel (i am poor and talentless 😢)
 <br> 
-download @ https://bmai1.github.io/projects.html
-<br>
 (there is a typo sorry i don't want to reupload)
 ## installation
 it's not that hard lol (download appropriate zip)<br> 
