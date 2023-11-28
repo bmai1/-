@@ -6,7 +6,7 @@ bg art ripped from another visual novel (i am poor and talentless 😢)
 <br> 
 (there is a typo sorry i don't want to reupload)
 ## installation
-it's not that hard lol (download appropriate zip)<br> 
+it's not that hard lol (download appropriate zip from one of these links)<br> 
 https://github.com/bmai1/tsu/releases/tag/misery <br> 
 https://bmai1.github.io/projects.html
 ## hotkeys
